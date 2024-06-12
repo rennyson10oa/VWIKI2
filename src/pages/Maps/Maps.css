@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mapContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90vw;
+  overflow: hidden;
+  margin-left: 7rem;
+}
+
+.mapWrapper {
+  position: relative;
+  width: 50%;
+  height: 40vh;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.mapIcon {
+  margin-top: -300px;
+  width: 750px;
+  height: 750px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 9rem;
+  justify-content: center;
+}
+
+.arrowContainer {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.arrow {
+  font-size: 36px;
+  cursor: pointer;
+}
